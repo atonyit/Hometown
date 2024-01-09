@@ -1,0 +1,91 @@
+body {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+
+#main{ 
+    color: black;
+    background-image: url("images/background2.png");
+    border-radius: 20px;
+    margin: 0; 
+    height: 300px;
+    background-size: cover;
+    text-shadow: 0px 0px 1px white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-h2-txt{
+    border: 2px solid #bcb8b1;
+    padding: 0px 6px;
+    background-color: #bcb8b1;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    line-height: small;
+}
+
+#main-h3-txt{
+    border: 1px solid #f4f3ee;
+    padding: 0px 6px;
+    background-color: #f4f3ee;
+    border-radius: 5px;
+}
+
+#middle {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.middle-main{
+    border: 2x solid blue;
+    margin: 1px 0px 10px 0px;
+}
+
+
+
+#img{
+    display: flex;
+    justify-content: space-between;
+    background: #f4f3ee;
+    padding: 10px 20px;
+    width:1400px;
+    /* height: auto; */
+    width: cover;
+    border-radius: 20px;
+    /* margin:; */
+    flex-direction: column;
+}
+
+
+.act-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 5px;
+
+}
+
+.card {
+    background: #8eecf5;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 15px 30px;
+    margin: 0px auto;
+    border-bottom: 7px solid slategrey;
+    width: 450px;
+    height: 225px;
+}
+
+.alan {
+    width: 150px;
+    border-radius: 10px;
+}
